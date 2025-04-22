@@ -13,7 +13,7 @@ This customizable Discord chatbot is powered by OpenAI's GPT-4. It responds to u
 - **Server Isolation Support:** Can be configured to ignore messages outside test servers
 - **Memory Aware:** Remembers last image sent to avoid repeating images
 
-# How to Run
+## How to Run
 
 1. **Install dependencies**
 
@@ -46,7 +46,7 @@ This customizable Discord chatbot is powered by OpenAI's GPT-4. It responds to u
 - Make sure to have 'Message Content Intent' enabled in the bot settings on the Discord Developer Portal
 - When testing a new version it is recommended to test it on a seperate test server. You can add logic to restrict responses to a specific 'guild.id'
 
-# Project Structure
+## Project Structure
 discord-ai-bot
 
 ├── images/               # Folder containing .jpg images

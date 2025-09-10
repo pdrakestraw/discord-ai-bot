@@ -1,12 +1,16 @@
 # discord-ai-bot
 **Author:** Paul Rakestraw
-**Version:** 2.0.0
+**Version:** 2.0.3
 **Release Date:** April 15, 2025
+**Version Update Date:** September 10, 2025
 
 This customizable Discord chatbot is powered by OpenAI's GPT-4. It responds to user messages with tailored responses that can be changed and altered inside the source code. Built with safety and security in mind, the chatbot only operates in designated enviroments and has specific triggers for message events. 
 
-## Features 
-
+## Latest Features 
+- **Gym Motivation:** Added Harsh Gym Motivation that's activated on keywords, 'Gym', 'Motivation', or 'Lift'
+- **Image Saving Capability:** The bot can now detect and save images when an image is posted in a specific text channel.
+  
+## Base Features 
 - **AI Chat Responses:** Uses OpenAI GPT-4to respond to custom personalitiy and behavior
 - **Image Sender:** Sends random '.jpg' images from a folder (non repeating) from local folder
 - **Trigger Phrases:** Built with capabilties of recognizing specific keywords and special responses
@@ -31,10 +35,11 @@ This customizable Discord chatbot is powered by OpenAI's GPT-4. It responds to u
 
 - Replace the 'api_key' place holders at the top (OpenAI)
 
-4. **Set your Discord Bot Token**
+4. **Set your Discord Bot Token and Text Channel Codes**
    
 - Replace the 'Discord Application Key' with discord app token
 - Token and bot setup can be found on Discord's developer portal
+- Replace text channel codes with your own 
 
 5. **Run the Bot**
 

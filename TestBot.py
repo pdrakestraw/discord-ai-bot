@@ -1,5 +1,5 @@
 # ---------------------------------------------
-# Uni the Cat Discord Bot Test🐾
+# Uni the Cat Discord Bot 🐾
 # Author: Paul Rakestraw
 # Version: 2.0.3
 # Date Released: April 15, 2025
@@ -27,7 +27,7 @@ import os
 from openai import OpenAI
 
 # Initialize OpenAI
-chatter = OpenAI(api_key='openai key')
+chatter = OpenAI(api_key='OpenAI API Key')
 
 # List of Uni's adorable images
 uni_pictures = [f for f in os.listdir("images") if f.lower().endswith(".jpg")]
@@ -139,4 +139,4 @@ intents.message_content = True
 
 # Start the bot
 client = Client(intents=intents)
-client.run('Discord application key')
+client.run('Discord Server Key')

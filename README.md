@@ -1,8 +1,8 @@
 # discord-ai-bot
 **Author:** Paul Rakestraw
-**Version:** 2.0.3
+**Version:** 2.1.0
 **Release Date:** April 15, 2025
-**Version Update Date:** September 10, 2025
+**Version Update Date:** September 12, 2025
 
 This customizable Discord chatbot is powered by OpenAI's GPT-4. It responds to user messages with tailored responses that can be changed and altered inside the source code. Built with safety and security in mind, the chatbot only operates in designated enviroments and has specific triggers for message events. 
 
@@ -60,8 +60,11 @@ discord-ai-bot
 
 ├── README.md             # This file
 
+├── .env                  # Encrypted file containting API keys and channel IDs
+
 
 # Safety Note 
 - Make sure that you do **NOT** share or hard-code sensitive credentials (like API keys or tokens) in production
-- This script is still in it's early development and still needs adaption for secure deployment
+- **DO NOT** insert your API keys and channel IDs directly into the code, this leaves your keys exposed. 
+- **ALL** keys and channel IDs need to be saved in a .env file
  
